@@ -1,0 +1,364 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00052f;
+    box-shadow: 0px 2px 5px rgba(243, 203, 203, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+
+}
+
+nav li a {
+    color: rgb(135, 133, 213);
+    text-decoration: none;
+    text-decoration-color: rgb(135, 133, 213);
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 25%;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
+}
+
+nav li a:hover {
+    color: #e1dfff;
+    text-decoration: none;
+    border-bottom: 4px solid;
+}
+
+
+.logo {
+    padding: 0 15px;
+}
+
+.logo img {
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #73adff;
+    font-size: 18px;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
+}
+
+.iconos a:hover {
+
+    color: #ffffff;
+
+}
+
+
+
+
+.principal {
+    background-image: url('../imagen/animacion.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    font-family: 'Abril Fatface', serif;
+    letter-spacing: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #e0deff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1 {
+    margin-top: 200px;
+    margin-bottom: 15px;
+}
+
+.contenidouno h2 {
+    margin-bottom: 15px;
+    font-family: 'Exo', Courier, monospace;
+}
+
+.contenidouno p {
+    margin-bottom: 30px;
+    color: #b2b6ed;
+    font-family: 'Indie Flower', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.433);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+
+}
+
+.button {
+   
+    font-family: 'Exo', Courier, monospace;
+    background-color: #0e0032;
+    color: rgb(198, 185, 229);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    border-style: dotted;
+    border-width: thick;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+.button:hover {
+    background-color:rgb(198, 185, 229);
+    color:  #0e0032;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+
+.banner {
+    background-image: url('../imagen/Plantas.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    letter-spacing: 2px;
+    font-family: 'Abril Fatface', serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    color: #9effab;
+    padding: 2px;
+    background: rgba(11, 37, 25, 0.8);
+}
+
+.contenidodos h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #9effab;
+    font-size: 18px;
+}
+
+.figuras a:hover {
+
+    color: #c6ffed;
+
+}
+
+
+
+
+
+
+.galeria {
+    background-color: #5670c0;
+    padding: 50px 0;
+    border-radius: 5px;
+
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1a2262;
+    letter-spacing: 2px;
+    font-family: 'Abril Fatface', serif;
+    text-decoration-line: underline;
+}
+
+.galeria p {
+    font-family: 'Exo', Courier, monospace;
+    color: #c6d8ff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 5px;
+    margin-bottom: 10px;
+}
+
+.contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Exo', Courier, monospace;
+}
+
+.contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #04416a;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+.contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: 'Indie Flower', Courier, monospace;
+}
+
+.contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #9191c4;
+    color: #f1f0ff;
+    text-decoration: none;
+    border: 1px solid #000000;;
+    margin-top: 20px;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+
+}
+
+.contenidotres .columna a:hover {
+    background-color: #f1f0ff;
+    color: #9191c4;
+
+}
+
+
+
+
+.footer {
+    background-color: #00052f;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.filas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+h3,
+p {
+    color: #c0cdff;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.social-icons1 {
+    display: flex;
+}
+
+.siguenos-redes {
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.siguenos-redes p {
+    text-align: center;
+    margin: 0;
+}
+
+/* Aquí puedes agregar tu CSS */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffbcbc;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5;
+    /* Cambia esto según el color que desees para el hover */
+}
+.filas-nombre {
+    text-align: center; /* Centra el contenido del div */
+}
+.filas-nombre h4 {
+    letter-spacing: 2px;
+    font-family: 'Teko', serif;
+    color: #c0cdff; /* Cambia el color al que prefieras */
+    font-size: 20px; /* Ajusta el tamaño del texto según tus necesidades */
+    margin: 10px 0; /* Espacio alrededor del texto, ajusta según sea necesario */
+}
